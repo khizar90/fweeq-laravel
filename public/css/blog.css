@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: lexend-bold;
+    src: url(../static/Lexend-Bold.ttf);
+}
+@font-face {
+    font-family: lexend-medium;
+    src: url(../static/Lexend-Medium.ttf);
+}
+@font-face {
+    font-family: lexend-regular;
+    src: url(../static/Lexend-Regular.ttf);
+}
+@font-face {
+    font-family: lexend-light;
+    src: url(../static/Lexend-Light.ttf);
+}
+@font-face {
+    font-family: lexend-semibold;
+    src: url(../static/Lexend-SemiBold.ttf);
+}
+
+
+
+nav .navbar-brand img{
+    height: 30px;
+
+  }
+  header form a.btn:focus{
+    box-shadow: none !important;
+}
+header form a.btn{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #567DF4;
+    border-radius: 10px;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: lexend-medium;
+    font-size: 16px;
+}
+header form a.btn2{
+    background-color: #FFF;
+    margin-top: 27px; 
+    color: black;
+    font-family: lexend-medium;
+    font-size: 16px;
+}
+
+
+
+.section1{
+    margin-top: 9em;
+}
+.section1 .image img{
+    width: 100%;
+    height: auto;
+}
+.section1  .title{
+    font-family: lexend-bold;
+    font-size: 20px;
+}
+.section1 .detail .ms-3 .name{
+    font-family: lexend-bold;
+    color: #567DF4;
+    font-size: 16px;
+}
+.section1 .detail .ms-3 .small{
+    font-family: lexend-regular;
+    font-size: 16px;
+}
+
+.section2 nav ul li a{
+    color: black;
+}
+.section2 .col-md-2{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+
+/* 
+///////////footer ///////////////// */
+footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .brand img{
+    height: 30px;
+}
+footer .icon a {
+        color: #0d6efd;
+        text-decoration: none;
+    
+}
+footer .icon a i{
+    color: black;
+    text-decoration: none;
+
+}
+footer .icon a i:hover {
+  color: #0d6efd;
+}
+footer  .titleimg2 img{
+    height: auto;
+    width: 40%;
+    
+}
+footer .tag {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+footer .tag a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #797B89;
+}
+footer .tag a:hover{
+    color: #0d6efd;
+}
+footer .copy{
+    text-align: center;
+    font-size: 11px;
+    color: #797B89;
+    margin-top: 10px;
+}

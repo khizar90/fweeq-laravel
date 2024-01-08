@@ -1,0 +1,225 @@
+
+@font-face {
+    font-family: lexend-bold;
+    src: url(../static/Lexend-Bold.ttf);
+}
+@font-face {
+    font-family: lexend-regular;
+    src: url(../static/Lexend-Regular.ttf);
+}
+@font-face {
+    font-family: lexend-medium;
+    src: url(../static/Lexend-Medium.ttf);
+}
+@font-face {
+    font-family: lexend-light;
+    src: url(../static/Lexend-Light.ttf);
+}
+@font-face {
+    font-family: lexend-semibold;
+    src: url(../static/Lexend-SemiBold.ttf);
+}
+
+nav .navbar-brand img{
+   
+    height: 30px;
+
+  }
+
+
+  
+header form a.btn:focus{
+    box-shadow: none !important;
+}
+header form a.btn{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #567DF4;
+    border-radius: 10px;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: lexend-medium;
+    font-size: 16px;
+}
+header form a.btn2{
+    background-color: #FFF;
+    margin-top: 27px; 
+    color: black;
+    font-family: lexend-medium;
+    font-size: 16px;
+}
+
+
+
+
+
+.section1 img{
+    width: 100%;
+    height: auto;
+}
+
+.section2 .col-md-7 .title{
+    font-family: lexend-bold;
+    font-size: 49px;
+   
+}
+.section2 .col-md-7 .dis{
+    font-family: lexend-regular;
+    font-size: 20px;
+    
+}
+.section2 .col-md-7 .qoute{
+    font-family: lexend-light;
+    font-size: 25px;
+}
+.section2 .col-md-7 .qoute span{
+    color: #567DF4;
+    font-size: 30px;
+}
+
+.section2 .col-md-7 .image img{
+    width: 100%;
+    height: auto;
+}
+
+
+.section2 .col-md-7 .author .name{
+    font-family: lexend-bold;
+    color: #567DF4;
+    font-size: 16px;
+}
+.section2 .col-md-7 .author .small{
+    font-family: lexend-regular;
+    
+    font-size: 16px;
+}
+
+.section2 .col-md-7 .audis{
+    color: #737373;
+    font-size: 16px;
+    font-family: lexend-regular;
+}
+.section2 .col-md-7 .time{
+    color: #4D4D4D;
+    font-family: lexend-regular;
+    font-size: 14px;
+}
+.section3 .texticon .icon a{
+    text-decoration: none;
+}
+.icon a:hover{
+    text-decoration: none;
+}
+.icon a i:hover {
+    color: #0d6efd;
+  }
+
+
+.section3 .col-md-6 .check{
+    font-family: lexend-bold;
+    font-size: 30px;
+}
+.section3 .col-md-6 .title{
+    font-family: lexend-bold;
+    font-size: 50px;
+}
+.section3  .col-md-6 .title span{
+   color: #0d6efd;
+   
+}
+.section3 .text{
+    font-family: lexend-semibold;
+    font-size: 14px;
+ }
+
+
+ input.form-control{
+  
+ 
+    color: #7B7F9E;
+    
+    font-family: lexend-light;
+  }
+  
+  input.form-control:focus
+  {
+    box-shadow: none;
+    border: 1px solid #E5E5E5
+  }
+  .section3 form .accordion-button:focus{
+    box-shadow: none;
+    background-color: #FFF !important;
+    color: #567DF4;
+}
+.accordion-item .accordion-body{
+    font-family: lexend-regular;
+    color: #7B7F9E;
+}
+ .section3 form .accordioncs{
+    border: 1px solid #ced4da;
+     padding: .600rem .75rem;
+}
+
+.section3 form .accordioncs button{
+   
+    font-family: lexend-regular;
+    font-size: 14px;
+}
+
+
+.section3 form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #828282;
+    font-family: lexend-regular;
+    font-size: 14px;
+  }
+
+/* 
+///////////footer ///////////////// */
+footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .fimg img{
+    height: 30px;
+}
+footer .icon a {
+        color: #0d6efd;
+        text-decoration: none;
+    
+}
+footer .icon a i{
+    color: black;
+    text-decoration: none;
+
+}
+footer .icon a i:hover {
+  color: #0d6efd;
+}
+footer  .titleimg2 img{
+    height: auto;
+    width: 40%;
+    
+}
+footer .tag {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+footer .tag a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #797B89;
+}
+footer .tag a:hover{
+    color: #0d6efd;
+}
+footer .copy{
+    text-align: center;
+    font-size: 11px;
+    color: #797B89;
+    margin-top: 10px;
+}

@@ -1,0 +1,193 @@
+
+/* .navbar .container{
+    padding-right: 15%;
+} */
+header nav .btn:focus{
+    box-shadow: none;
+}
+.navbar form a.btn2:hover{
+    color: #567DF4;
+}
+.navbar form a{
+    background-color: #567DF4;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar form .btn2{
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header nav .navbar-brand img{
+    height: 30px;
+}
+
+header .col-md-6 .title{
+    font-size: 36px;
+    font-weight: bold;
+}
+header  .col-md-6 .title span{
+   color: #0d6efd;
+   
+}
+header .text{
+    margin-top: 10px;
+    font-weight: bold;
+    
+ }
+
+
+ header .container .row{
+    margin-top: 8em;
+ }
+
+header form .mb-3 input {
+    border-radius: 0px;
+    outline: none;
+    
+}
+header form .button button{
+    background-color: #567DF4;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+
+}
+header form .mb-3 input:focus{
+    outline: none;
+    border-color: #fff;
+}
+
+header form .accordioncs{
+    border: 1px solid #ced4da;
+     padding: .600rem .75rem;
+}
+
+header form .accordioncs button{
+    font-weight: bold;
+    
+}
+.accordion-item .accordion-body{
+    font-family: lexend-regular;
+    color: #7B7F9E;
+}
+
+
+header .social{
+    margin-top: 30px;
+}
+header .social .row .col-md-4{
+    display: flex;
+}
+header .social .row .col-md-4 i{
+    list-style: none;
+  font-size: 25px;
+  border-radius: 400px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  color: black;
+}
+header .social .row .col-md-4 .socialinfo{
+    padding-left: 8px;
+    padding-top: 8px;
+}
+header .social .row .col-md-4 .phonetext{
+    font-weight: bold;
+    font-size: 12px;
+}
+header .social .row .col-md-4 .phonetext .dis{
+    font-weight: normal;
+    font-size: 9px;
+    color: #0d6efd;
+}
+header .cimage {
+    margin-top: 30px;
+}
+header .cimage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  
+}
+
+
+
+/* 
+///////////footer ///////////////// */
+footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .brand img{
+    height: 30px;
+}
+footer .icon a {
+        color: #0d6efd;
+        text-decoration: none;
+    
+}
+footer .icon a i{
+    color: black;
+    text-decoration: none;
+
+}
+footer .icon a i:hover {
+  color: #0d6efd;
+}
+footer  .titleimg2 img{
+    height: auto;
+    width: 40%;
+    
+}
+footer .tag {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+footer .tag a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #797B89;
+}
+footer .tag a:hover{
+    color: #0d6efd;
+}
+footer .copy{
+    text-align: center;
+    font-size: 11px;
+    color: #797B89;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 767px){
+   .social .row .col-md-4{
+ padding-left: 30%;
+   
+   }
+   footer{
+    margin-top: 20px;
+}
+}
+
+@media (max-width : 992px) and (min-width: 768px){
+    header .cimage img{
+        margin-top: 100px;
+      
+    }
+}

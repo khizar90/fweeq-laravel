@@ -1,0 +1,240 @@
+
+
+@font-face {
+    font-family: lexend-bold;
+    src: url(../static/Lexend-Bold.ttf);
+  }
+  @font-face {
+    font-family: lexend-regular;
+    src: url(../static/Lexend-Regular.ttf);
+  }
+  @font-face {
+    font-family: lexend-medium;
+    src: url(../static/Lexend-Medium.ttf);
+  }
+  @font-face {
+    font-family: lexend-light;
+    src: url(../static/Lexend-Light.ttf);
+  }
+  @font-face {
+    font-family: lexend-semibold;
+    src: url(../static/Lexend-SemiBold.ttf);
+  }
+
+
+  input.form-control:focus
+  {
+    box-shadow: none
+  }
+
+
+
+header .navbar{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+header .navbar-brand img{
+    height: 30px;
+}
+header nav form{
+    margin-left: 50px;
+}
+
+input.form-control{
+    border: none;
+    color: #484848;
+    width: 450px;
+    font-family: lexend-light;
+   
+}
+header nav form .btn{
+    border: 2px solid #567DF4;
+    border-color: solid #567DF4;
+    color: #567DF4;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px !important;
+    font-family:  lexend-medium ;
+}
+header nav form .btn:hover{
+    background:#567DF4;
+    color: #FFF;
+    border: none;
+}
+header nav form .btn:focus{
+    box-shadow: none !important;
+   border: none !important;
+   background-color: #567DF4 !important;
+   color: #FFF;
+}
+
+.section1 .col-md-4 .title{
+    font-family: lexend-semibold;
+    color: #2C2C63;
+    font-size: 20px;
+}
+
+.section1 .col-md-4 .dis{
+    color: #72767C;
+    font-family: lexend-regular;
+    font-size: 14px;
+}
+
+.section1 .col-md-4 .tabs .nav-tabs{
+    border-style: solid;
+    border-width: thin;
+    border-color: #E5E5E5;
+    border-radius:10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.section1 .nav-tabs .nav-item .nav-link:hover{
+    border-radius: 10px;
+}
+.section1 .nav-tabs .nav-item .nav-link {
+    background-color: transparent;
+    color: #22215B;
+    font-family: lexend-medium;
+   
+    
+  }
+  
+  .section1 .nav-tabs .nav-item .nav-link.active {
+    background-color: #567DF4;
+    border-radius: 10px;
+    color: #FFF;
+    
+  }
+  
+  
+  
+  .section1 .tab-content .tab-pane .cart {
+    background-color: #F1F1F9;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    height: auto;
+    display: flex;
+    position: relative;
+  }
+
+  .section1 .tab-content .tab-pane .cart .catg{
+    
+    width: 24%;
+    margin: auto;
+    height: auto;
+    right: 10px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    color: #22215B;
+    font-family: lexend-light;
+    font-size: 12px;
+    display: flex;
+
+  }
+  .section1 .tab-content .tab-pane .cart .image{
+    width: 65px;
+    height: 65px;
+  }
+  .section1 .tab-content .tab-pane .cart .image img{
+    width: 100%;
+    height: 100%;
+  }
+  .section1 .tab-content .tab-pane .cart .author{
+    margin-left: 3%;
+  }
+  .section1 .tab-content .tab-pane .cart .author .name{
+    color: #273240;
+    font-family: lexend-semibold;
+    font-size: 16px;
+  }
+  .section1 .tab-content .tab-pane .cart .author .rateing img{
+    margin-right: 5px;
+    width: 40%;
+  }
+  .section1 .tab-content .tab-pane .cart .rateing{
+    color: #2C3A4B;
+    font-size: 12px;
+    font-family:  lexend-light;
+  }
+
+
+  .section1 .tab-content .tab-pane .cart .author .dis{
+    color: #22215B;
+    font-family:  lexend-light;
+    margin-top: 6%;
+  }
+
+
+
+  @media (max-width: 600px){
+    header .navbar-brand img{
+      display: none;
+    }
+    header nav form{
+        margin-left: 10px;
+    }
+    .section1 .tab-content .tab-pane .cart .catg{
+        width: 30%;
+       
+        font-size: 10px;
+        
+    
+      }
+  }
+
+  @media (max-width: 900px) and (min-width:768px){
+    .section1 .tab-content .tab-pane .cart .image{
+        width: 40px;
+        height: 40px;
+      }
+      .section1 .tab-content .tab-pane .cart .author .name{
+     
+        font-size: 10px;
+      }
+      .section1 .tab-content .tab-pane .cart .author .rateing img{
+      
+        width: 20%;
+      }
+      .section1 .tab-content .tab-pane .cart .rateing{
+        
+        font-size: 7px;
+        
+      }
+    
+    
+      .section1 .tab-content .tab-pane .cart .author .dis{
+      
+        font-size: 8px;
+      }
+      .section1 .tab-content .tab-pane .cart .catg{
+        width: 30%;
+       
+        font-size: 8px;
+        
+    
+      }
+      .section1 .tab-content .tab-pane .cart {
+       padding-left: 10px;
+      }
+      .section1 .nav-tabs .nav-item .nav-link {
+     font-size: 8px;
+       
+        
+      }
+  
+  }
+  @media (max-width: 1024px) and (min-width:901px){
+    .section1 .tab-content .tab-pane .cart .catg{
+        width: 28%;    
+    
+      }
+  }
+ 
